@@ -6,6 +6,7 @@ An aplication that can convert 4 kinds of currency: BRL(Brazillian coin) USD(USA
 
 ### Video example
 
-<video autoplay loop muted>
-    <source src="./videos/Document - Google Chrome 2024-08-03 12-31-09.mp4" type="video/mp4">
-</video>
+
+
+https://github.com/user-attachments/assets/2ae713f9-ed7c-457d-b7f9-5beb00a07c63
+
