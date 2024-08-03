@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/arrows-exchange.svg" type="image/x-icon">
+   
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+<section class="form">
+    
+  <p>Conversor de moedas</p>
+  <div id="inputs">
+<div id="fromOptions">
+<input type="number" name="" id="fromCurrencyInput" required>
+<div id="fromFlag"></div>
+
+<select name="" id="from" class="">
+
+    <option value="BRL" id="BRL">BRL</option>
+    <option value="USD" id="USD">USD</option>
+    <option value="EUR" id="EUR">EUR</option>
+    <option value="GBP" id="GBP">GBP</option>
+
+</select>
+</div>
+
+<button id="replaceButton" >
+<img src="./assets/arrows-exchange.svg" alt="De e Para">
+</button>
+
+<div id="toOptions">
+<input type="number" name="" id="toCurrencyInput" disabled>
+<div id="toFlag"></div>
+<select name="" id="to">
+    <option value="USD" id="USD">USD</option>
+    <option value="BRL" id="BRL">BRL</option>
+    <option value="EUR" id="EUR">EUR</option>
+    <option value="GBP" id="GBP">GBP</option>
+</select>
+</div>
+</div>
+<button class="convertCurrency">Converter</button>
+<h1 class="result"></h1>
+</section>
+    </header> 
+    <script src="./script.js"></script>
+</body>
+</html>
